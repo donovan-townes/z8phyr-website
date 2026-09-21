@@ -1,45 +1,191 @@
-.zpage [id] { scroll-margin-top: 24px; }
-.zpage .znav nav a[aria-current="page"] { color: var(--z-teal); text-decoration: underline; text-underline-offset: 7px; }
-.znewsletter-form, .zkit-embed, .zsignup { min-width: 0; }
-.zkit-embed { color-scheme: light; }
-.zkit-embed:has(form) { margin-top: 20px; }
-.zkit-embed .formkit-form { max-width: 100% !important; }
-.znewsletter-form .zsmall-note a { font-size: inherit; text-decoration: underline; }
-.zproject-feature .zbutton { margin: 18px 0; }
-.zproject-feature .ztext-link { display: inline-block; }
-.zproject-feature .zstatus { margin: 0 0 10px; }
-.zwork-preview { display: flex; align-items: center; justify-content: space-between; gap: 40px; border-bottom: 1px solid var(--z-line); }
-.zwork-preview p { margin-top: 18px; }
-.zwork-preview .zbutton { flex-shrink: 0; }
-.zwork-hero, .zwork-services, .zwork-shop, .zwork-inquiry { max-width: 1280px; margin: auto; padding: 70px 6%; }
-.zwork-hero { background: linear-gradient(90deg, #031720f5, #031720b8), url('/brand/aurora.webp') center / cover; }
-.zwork-hero h1 { margin: 24px 0 32px; }
-.zwork-hero h2 { font-size: 30px; }
-.zwork-hero p { max-width: 660px; margin: 20px 0; }
-.zwork-hero .zbutton { margin-top: 12px; }
-.zservice-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px 64px; }
-.zservice-grid article { border-top: 1px solid var(--z-line); padding-top: 28px; }
-.zservice-grid p { margin: 18px 0; }
-.zservice-grid h3 { font-size: 32px; }
-.zwork-shop { display: flex; align-items: center; justify-content: space-between; gap: 36px; background: #102e3a; }
-.zwork-shop p { margin-top: 20px; }
-.zwork-shop .zbutton { flex-shrink: 0; }
-.zwork-inquiry { max-width: 960px; }
-.zwork-inquiry > p { max-width: 740px; margin: 22px 0; }
-.zinquiry-embed > p { margin: 26px 0 18px; }
-.zinquiry-embed > p a { font-size: inherit; }
-.zinquiry-paper { padding: 28px; background: #f5f8f8; border-radius: 4px; color-scheme: light; }
-.zinquiry-frame { display: block; width: 100%; border: 0; }
+.zpage [id] {
+  scroll-margin-top: 24px;
+}
+.zpage .znav nav a[aria-current="page"] {
+  color: var(--z-teal);
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+.znewsletter-form,
+.zkit-embed,
+.zsignup {
+  min-width: 0;
+}
+.zkit-embed {
+  color-scheme: light;
+}
+.zkit-embed:has(form) {
+  margin-top: 20px;
+}
+.zkit-embed .formkit-form {
+  max-width: 100% !important;
+}
+.znewsletter-form .zsmall-note a {
+  font-size: inherit;
+  text-decoration: underline;
+}
+.zproject-feature .zbutton {
+  margin: 18px 0;
+}
+.zproject-feature .ztext-link {
+  display: inline-block;
+}
+.zproject-feature .zstatus {
+  margin: 0 0 10px;
+}
+.zwork-preview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  border-bottom: 1px solid var(--z-line);
+}
+.zwork-preview p {
+  margin-top: 18px;
+}
+.zwork-preview .zbutton {
+  flex-shrink: 0;
+}
+.zwork-hero,
+.zwork-services,
+.zwork-shop,
+.zwork-inquiry {
+  max-width: 1280px;
+  margin: auto;
+  padding: 70px 6%;
+}
+.zwork-hero {
+  background:
+    linear-gradient(90deg, #031720f5, #031720b8),
+    url("/brand/aurora.webp") center / cover;
+}
+.zwork-hero h1 {
+  margin: 24px 0 32px;
+}
+.zwork-hero h2 {
+  font-size: 30px;
+}
+.zwork-hero p {
+  max-width: 660px;
+  margin: 20px 0;
+}
+.zwork-hero .zbutton {
+  margin-top: 12px;
+}
+.zservice-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 48px 64px;
+}
+.zservice-grid article {
+  border-top: 1px solid var(--z-line);
+  padding-top: 28px;
+}
+.zservice-grid p {
+  margin: 18px 0;
+}
+.zservice-grid h3 {
+  font-size: 32px;
+}
+.zservice-price {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 24px 0 18px;
+}
+.zservice-label {
+  font-size: 11px;
+  letter-spacing: 1.8px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: var(--z-teal);
+}
+.zservice-amount {
+  font-size: 19px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--z-ivory);
+}
+.zservice-note-only {
+  margin-top: 22px;
+}
+.zservice-note-only .zservice-label {
+  letter-spacing: 1.2px;
+}
+.zwork-shop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 36px;
+  background: #102e3a;
+}
+.zwork-shop p {
+  margin-top: 20px;
+}
+.zwork-shop .zbutton {
+  flex-shrink: 0;
+}
+.zwork-inquiry {
+  max-width: 960px;
+}
+.zwork-inquiry > p {
+  max-width: 740px;
+  margin: 22px 0;
+}
+.zinquiry-embed > p {
+  margin: 26px 0 18px;
+}
+.zinquiry-embed > p a {
+  font-size: inherit;
+}
+.zinquiry-paper {
+  padding: 28px;
+  background: #f5f8f8;
+  border-radius: 4px;
+  color-scheme: light;
+}
+.zinquiry-frame {
+  display: block;
+  width: 100%;
+  border: 0;
+}
 @media (max-width: 900px) {
-  .zpage .znav { flex-wrap: wrap; }
-  .zpage .znav nav { order: 3; width: 100%; justify-content: center; gap: 18px 26px; }
-  .zwork-preview, .zwork-shop { flex-direction: column; align-items: flex-start; }
+  .zpage .znav {
+    flex-wrap: wrap;
+  }
+  .zpage .znav nav {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    gap: 18px 26px;
+  }
+  .zwork-preview,
+  .zwork-shop {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 @media (max-width: 760px) {
-  .zwork-hero, .zwork-services, .zwork-shop, .zwork-inquiry { padding: 46px 7%; }
-  .zwork-hero h1 { font-size: clamp(44px, 10vw, 64px); }
-  .zservice-grid { grid-template-columns: minmax(0, 1fr); gap: 32px; }
-  .zservice-grid h3 { font-size: 28px; }
-  .zinquiry-paper { padding: 16px; }
-  .zwork-preview { gap: 26px; }
+  .zwork-hero,
+  .zwork-services,
+  .zwork-shop,
+  .zwork-inquiry {
+    padding: 46px 7%;
+  }
+  .zwork-hero h1 {
+    font-size: clamp(44px, 10vw, 64px);
+  }
+  .zservice-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
+  }
+  .zservice-grid h3 {
+    font-size: 28px;
+  }
+  .zinquiry-paper {
+    padding: 16px;
+  }
+  .zwork-preview {
+    gap: 26px;
+  }
 }
