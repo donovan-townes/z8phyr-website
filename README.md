@@ -26,13 +26,17 @@ To check that production build locally, run `npm start`.
 | File | Purpose |
 | --- | --- |
 | `app/artist-content.ts` | Latest release/player, socials, Patreon, creator playlist/terms, guestbook link |
-| `app/content.ts` | Newsletter signup destination, releases, external merchandise links, journal entries |
+| `app/content.ts` | Releases, external merchandise links, journal entries |
+| `app/integrations.ts` | Kit signup, Tally form, Payhip storefront and free project destinations |
+| `app/newsletter-signup.tsx`, `app/inquiry-form.tsx` | Embedded forms and direct-link fallbacks |
+| `app/artist-shell.tsx` | Shared navigation and social footer |
+| `app/work-with-me/page.tsx` | Services, project inquiry copy, and Tally form |
 | `app/artist-home.tsx` | Homepage sections and copy |
-| `app/artist.css`, `app/artist-draft3.css` | Brand styling and responsive layout |
+| `app/artist.css`, `app/artist-draft3.css`, `app/integrations.css` | Brand styling and responsive layout |
 | `public/brand/` | Artist photos and brand artwork |
 | `app/page.tsx`, `app/layout.tsx` | Page titles and metadata |
 
-Newsletter signup and guestbook currently show coming-soon states. Add their destination URLs to enable the links. Creator licensing copy remains a placeholder. The release player uses YouTube; playback remains subject to the video's embedding availability.
+Newsletter signup embeds the existing Kit form. Work With Me embeds Tally. The navigation links to the Payhip storefront, and the homepage features the approved free project. See [INTEGRATIONS.md](INTEGRATIONS.md) for account-side checks and the preview workflow. Guestbook and detailed creator licensing remain deferred. The release player uses YouTube; playback remains subject to the video's embedding availability.
 
 Merchandise and project-file buttons send visitors to external services such as Bandcamp, Spring, Printful, Patreon, or hosted Stripe payment links. This site does not process payments or deliver paid files. Do not put paid downloads or secret keys in `public/`.
 

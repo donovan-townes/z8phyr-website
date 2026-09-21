@@ -5,4 +5,3 @@ export type Letter = { slug: string; title: string; date: string; body: string }
 export const releases: Release[] = [];
 export const products: Product[] = [];
 export const letters: Letter[] = [];
-export const links = { newsletter: '' };
