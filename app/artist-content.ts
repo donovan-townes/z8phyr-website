@@ -17,8 +17,7 @@ export const artistLinks = {
 export type FeaturedRelease = {title:string; description:string; artwork?:string; listenUrl:string; audioUrl?:string; embedUrl?:string};
 // Set the confirmed latest release here. An empty value keeps an honest player space.
 export const featuredRelease: FeaturedRelease | null = {
- title: 'Viridenis Ventus',
- description: 'The Blooming Presence · Original, Radio & Ambient Mix',
- listenUrl: 'https://go.protonradio.com/r/rl9jRnEw-j8gk',
- embedUrl: 'https://www.youtube-nocookie.com/embed/kNAd4Nv99mo',
+ title: 'Reverie',
+ description: 'Melodic progressive house · Cool Breeze Records · CB2602',
+ listenUrl: 'https://go.protonradio.com/r/rlOdKmvsn1sM8',
 };
