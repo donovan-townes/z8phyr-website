@@ -48,6 +48,7 @@
 }
 .zwork-hero,
 .zwork-services,
+.zwork-portfolio,
 .zwork-shop,
 .zwork-inquiry {
   max-width: 1280px;
@@ -112,6 +113,21 @@
 .zservice-note-only .zservice-label {
   letter-spacing: 1.2px;
 }
+.zportfolio-intro {
+  margin: 20px 0 0;
+  max-width: 620px;
+}
+.zwork-portfolio .ztext-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.zportfolio-links {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 14px;
+}
 .zwork-shop {
   display: flex;
   align-items: center;
@@ -168,6 +184,7 @@
 @media (max-width: 760px) {
   .zwork-hero,
   .zwork-services,
+  .zwork-portfolio,
   .zwork-shop,
   .zwork-inquiry {
     padding: 46px 7%;

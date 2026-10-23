@@ -134,6 +134,57 @@ export default function WorkWithMe() {
           </div>
         </section>
 
+        <section className="zwork-portfolio" aria-labelledby="portfolio-heading">
+          <div className="zsection-head">
+            <div>
+              <span className="zkicker">SELECTED WORK</span>
+              <h2 id="portfolio-heading">Selected work</h2>
+              <p className="zportfolio-intro">
+                Hear an official remix and how an original track evolved
+                through a self-remix.
+              </p>
+            </div>
+          </div>
+          <div className="zservice-grid">
+            <article>
+              <span className="zkicker">OFFICIAL REMIX</span>
+              <h3>Eimear — Wake Up (Z8phyR Remix)</h3>
+              <p>Official remix by Z8phyR · Synth Collective</p>
+              <a
+                className="ztext-link"
+                href="https://youtu.be/XdiYThMyI4w"
+                aria-label="Listen to Wake Up (Z8phyR Remix) on YouTube"
+              >
+                Listen to Wake Up (Z8phyR Remix) on YouTube{" "}
+                <ArrowUpRight size={16} aria-hidden="true" />
+              </a>
+            </article>
+            <article>
+              <span className="zkicker">ORIGINAL → SELF-REMIX</span>
+              <h3>Z8phyR — Chasing the Sound</h3>
+              <p>
+                Compare the 2023 Original Mix with Z8phyR’s self-remix.
+              </p>
+              <div className="zportfolio-links">
+                <a
+                  className="ztext-link"
+                  href="https://youtu.be/BZnGAi_eA0M"
+                >
+                  Listen to the original on YouTube{" "}
+                  <ArrowUpRight size={16} aria-hidden="true" />
+                </a>
+                <a
+                  className="ztext-link"
+                  href="https://youtu.be/wwtA1cUVt_k"
+                >
+                  Listen to the Z8phyR self-remix on YouTube{" "}
+                  <ArrowUpRight size={16} aria-hidden="true" />
+                </a>
+              </div>
+            </article>
+          </div>
+        </section>
+
         <aside
           className="zwork-shop"
           aria-labelledby="digital-products-heading"
