@@ -12,6 +12,20 @@ export const inquiries = {
 
 export const shop = {
   url: 'https://payhip.com/Z8phyRMusic',
+  featuredProduct: {
+    title: 'Melodic Breeze — Harmless Presets Vol. 1',
+    price: '$12 USD',
+    description: 'Shape your own melodic sound with 30 original Z8phyR Harmless presets. Includes an editable FL Studio demonstration project and MP3 preview. Licensed for use in your own personal and commercial music productions.',
+    contents: [
+      '30 original Harmless .fst presets',
+      'Editable FL Studio demo project (.flp)',
+      'Melodic Breeze Demo MP3',
+      'Commercial music-use buyer license',
+    ],
+    compatibility: 'Requires compatible, licensed FL Studio and Harmless. Neither application nor plugin is included.',
+    url: 'https://payhip.com/b/9L3OJ',
+    demoUrl: 'https://soundcloud.com/z8phyr/melodic-breeze-demo',
+  },
   freeProject: {
     title: 'A free project from Z8phyR',
     description: 'Take a closer look at the music with a free project download. Find the full details and get the ZIP on Payhip.',

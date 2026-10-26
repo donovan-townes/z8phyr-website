@@ -33,6 +33,52 @@
 .zproject-feature .zstatus {
   margin: 0 0 10px;
 }
+.zstudio-offers {
+  display: grid;
+  gap: 34px;
+}
+.zpreset-feature {
+  padding: 26px;
+  border: 1px solid #85d6d35c;
+  background: #081e2cbf;
+}
+.zpreset-feature h3 {
+  margin-bottom: 10px;
+}
+.zpreset-price {
+  margin-bottom: 8px;
+  color: var(--z-ink);
+}
+.zpreset-contents {
+  display: grid;
+  gap: 8px;
+  margin: 20px 0;
+  padding-left: 20px;
+  color: var(--z-muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+.zpreset-contents li::marker {
+  color: var(--z-teal);
+}
+.zpreset-feature .zcompatibility {
+  margin: 0 0 22px;
+  font-size: 13px;
+  line-height: 1.65;
+}
+.zpreset-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 18px 22px;
+}
+.zpreset-actions .zbutton {
+  margin: 0;
+}
+.zstudio-offers .zproject-feature {
+  padding-top: 28px;
+  border-top: 1px solid var(--z-line);
+}
 .zwork-preview {
   display: flex;
   align-items: center;
@@ -182,6 +228,13 @@
   }
 }
 @media (max-width: 760px) {
+  .zpreset-feature {
+    padding: 22px;
+  }
+  .zpreset-actions {
+    align-items: flex-start;
+    flex-direction: column;
+  }
   .zwork-hero,
   .zwork-services,
   .zwork-portfolio,
